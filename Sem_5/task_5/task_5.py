@@ -16,5 +16,4 @@ def sum_num():
     except ValueError:
         print('Неверный ввод')
 
-
 sum_num()
