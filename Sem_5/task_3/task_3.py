@@ -18,4 +18,3 @@ for worker in workers:
         print(name)
 
 print('Средняя величина дохода: ', round(sum_salary / len(workers), 2))
-
