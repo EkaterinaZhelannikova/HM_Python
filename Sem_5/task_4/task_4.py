@@ -19,5 +19,3 @@ numbers_rus = "\n".join(f'{rus[n - 1]} - {n}' for n in numbers)
 
 with open("task_4_rus.txt", 'w', encoding='utf-8') as new_f:
     new_f.write(numbers_rus)
-
-
